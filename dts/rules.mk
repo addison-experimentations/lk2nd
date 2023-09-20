@@ -10,6 +10,7 @@ DTBS += \
 	$(LOCAL_DIR)/msm8953-huawei-milan.dtb \
 	$(LOCAL_DIR)/msm8953-meizu-m1721.dtb \
 	$(LOCAL_DIR)/msm8953-motorola-potter.dtb \
+	$(LOCAL_DIR)/msm8953-motorola-addison.dtb \
 	$(LOCAL_DIR)/msm8953-tenor-holland.dtb \
 	$(LOCAL_DIR)/msm8953-xiaomi-common.dtb \
 	$(LOCAL_DIR)/msm8953-xiaomi-daisy.dtb \
