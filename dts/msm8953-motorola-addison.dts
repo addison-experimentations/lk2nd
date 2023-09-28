@@ -15,4 +15,15 @@
 
 	model = "Motorola Moto Z Play (addison)"; // FIXME
 	compatible = "motorola,addison", "qcom,msm8953-addison", "qcom,msm8953-moto", "qcom,msm8953", "lk2nd,device"; // FIXME
+		lk2nd,motorola-unitinfo = <1>;
+	panel {
+		compatible = "motorola,addison-panel";
+
+		qcom,mdss_dsi_mot_smd_549_1080p_cmd_v0 {
+			compatible = "tianma,tl052vdxp02";
+		};
+		qcom,mdss_dsi_mot_boe_520_1080p_vid_v0 {
+			compatible = "boe,bs052fhm-a00-6c01";
+		};
+	};
 };
